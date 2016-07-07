@@ -1,4 +1,4 @@
-# ZSH Functions
+# ZSH functions
 A bunch of scripts that make my ZSH more suited to my daily tasks.
 
 # Usage
