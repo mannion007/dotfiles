@@ -51,12 +51,15 @@ ZSH_CUSTOM=$ZSH/custom/zsh-functions
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker zsh-navigation-tools)
+plugins=(git docker zsh-navigation-tools golang)
 
 # User configuration
 
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+
+export PATH="$PATH:/usr/local/go/bin"
+export GOPATH="/home/james/GoProjects"
 
 source $ZSH/oh-my-zsh.sh
 
